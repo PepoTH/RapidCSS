@@ -4,4 +4,4 @@ RapidCSS es un archivo CSS simple y una utilidad de línea de comandos que te ay
 
 Con solo descargar el archivo CSS e importarlo a tu proyecto ya podras tener acceso a toda una biblioteca de estilos ya sea para botones, contenedores y muchos mas, solo necesitas agregar diferentes clases ya predeterminadas.
 
-'''<link rel="stylesheet" href="RapidCSS.css">'''
+```<link rel="stylesheet" href="RapidCSS.css">```
