@@ -52,3 +52,22 @@ main {
 #btn-download:active {
     border-bottom: #3d3d3d 2px solid;
 }
+
+.redirect {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 0px;
+    transition: all 0.5s;
+}
+
+.redirect a {
+    font-size: 1rem;
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+.redirect:hover {
+    gap: 10px;
+    text-decoration: underline;
+}
