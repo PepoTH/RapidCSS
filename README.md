@@ -17,5 +17,5 @@ Facilidad de uso: No necesitas ser un experto en CSS para usar estas bibliotecas
 <link rel="stylesheet" href="RapidCSS.css">
 ```
 
-Descarga el archivo en el siguiente enlace:
-<a download href="RapidCSS.css">Download RapidCSS</a>
+Descarga el archivo en el siguiente enlace:  
+<a download="RapidCSS.css" href="">Download RapidCSS</a>
