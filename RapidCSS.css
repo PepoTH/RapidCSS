@@ -1,0 +1,79 @@
+/*
+
+    Proyect: RapidCSS
+    Autor: Cesar Dominguez
+    License: Mozilla Public License 2.0
+
+*/
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-purple {
+    background-color: purple;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+.widhei {
+    width: 100%;
+    height: 100%;
+}
+
+.wid-100 {
+    width: 100%;
+}
+
+.hei-100 {
+    height: 100%;
+}
+
+.wid-50 {
+    width: 50%;
+}
+
+.hei-50 {
+    height: 50%;
+}
+
+.wid-25 {
+    width: 25%;
+}
+
+.hei-25 {
+    height: 25%;
+}
+
