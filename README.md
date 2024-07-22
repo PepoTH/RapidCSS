@@ -21,4 +21,7 @@ Puede Descargar el archivo de RapidCSS en el siguiente link:
   
 ### https://rapidcss.netlify.app
   
-Te redirigira al sitio oficial de RapidCSS, al darle al boton "Download RapidCSS" te descargara el css necesario
+Te redirigira al sitio oficial de RapidCSS, al darle al boton "Download RapidCSS" te descargara el css necesario  
+
+### Uso de RapidCSS
+Al entrar en la pagina de RapidCSS le daras al boton de cheatsheet, donde te redirigira a todas las propiedades que tiene RapidCSS
