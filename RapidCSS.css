@@ -1,79 +1,393 @@
 /*
 
-    Proyect: RapidCSS
+    Proyecto: RapidCSS
     Autor: Cesar Dominguez
-    License: Mozilla Public License 2.0
+    Licencia: Mozilla Public License 2.0
 
 */
 
+/* 
+Clase Flexbox 
+*/
+
+/* 
+La clase .flex-center centra los elementos tanto horizontal como verticalmente.
+*/
 .flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* 
+La clase .flex establece un contenedor flex.
+*/
+.flex {
+    display: flex;
+}
+
+/* 
+La clase .flex-column establece la dirección de los elementos flex como columna.
+*/
+.flex-column {
+    flex-direction: column;
+}
+
+/* 
+Clase Grid 
+*/
+
+/* 
+La clase .grid establece un contenedor de cuadrícula.
+*/
+.grid {
+    display: grid;
+}
+
+/* 
+La clase .grid-center centra los elementos tanto horizontal como verticalmente.
+*/
+.grid-center {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 
+Clases para cambiar el color de fondo de un elemento
+*/
+
+/* 
+La clase .bg-red cambia el color de fondo a rojo.
+*/
 .bg-red {
     background-color: red;
 }
 
+/* 
+La clase .bg-blue cambia el color de fondo a azul.
+*/
 .bg-blue {
     background-color: blue;
 }
 
+/* 
+La clase .bg-green cambia el color de fondo a verde.
+*/
 .bg-green {
     background-color: green;
 }
 
+/* 
+La clase .bg-yellow cambia el color de fondo a amarillo.
+*/
 .bg-yellow {
     background-color: yellow;
 }
 
+/* 
+La clase .bg-orange cambia el color de fondo a naranja.
+*/
 .bg-orange {
     background-color: orange;
 }
 
+/* 
+La clase .bg-purple cambia el color de fondo a púrpura.
+*/
 .bg-purple {
     background-color: purple;
 }
 
+/* 
+La clase .bg-black cambia el color de fondo a negro.
+*/
 .bg-black {
     background-color: black;
 }
 
+/* 
+La clase .bg-white cambia el color de fondo a blanco.
+*/
 .bg-white {
     background-color: white;
 }
 
+/* 
+La clase .bg-gray cambia el color de fondo a gris.
+*/
 .bg-gray {
     background-color: gray;
 }
 
+/* 
+Clases para cambiar el ancho y la altura de un elemento
+*/
+
+/* 
+La clase .widhei cambia el ancho y la altura a 100%.
+*/
 .widhei {
     width: 100%;
     height: 100%;
 }
 
+/* 
+La clase .wid-100 cambia el ancho a 100%.
+*/
 .wid-100 {
     width: 100%;
 }
 
+/* 
+La clase .hei-100 cambia la altura a 100%.
+*/
 .hei-100 {
     height: 100%;
 }
 
+/* 
+La clase .wid-50 cambia el ancho a 50%.
+*/
 .wid-50 {
     width: 50%;
 }
 
+/* 
+La clase .hei-50 cambia la altura a 50%.
+*/
 .hei-50 {
     height: 50%;
 }
 
+/* 
+La clase .wid-25 cambia el ancho a 25%.
+*/
 .wid-25 {
     width: 25%;
 }
 
+/* 
+La clase .hei-25 cambia la altura a 25%.
+*/
 .hei-25 {
     height: 25%;
 }
 
+/* 
+La clase .color-black cambia el color del texto a negro.
+*/
+.color-black {
+    color: black;
+}
+
+/* 
+La clase .color-white cambia el color del texto a blanco.
+*/
+.color-white {
+    color: white;
+}
+
+/* 
+La clase .radius-5 establece un radio de borde de 5px.
+*/
+.radius-5 {
+    border-radius: 5px;
+}
+
+/* 
+La clase .radius-10 establece un radio de borde de 10px.
+*/
+.radius-10 {
+    border-radius: 10px;
+}
+
+/* 
+La clase .radius-15 establece un radio de borde de 15px.
+*/
+.radius-15 {
+    border-radius: 15px;
+}
+
+/* 
+La clase .radius-20 establece un radio de borde de 20px.
+*/
+.radius-20 {
+    border-radius: 20px;
+}
+
+/* 
+La clase .radius-25 establece un radio de borde de 25px.
+*/
+.radius-25 {
+    border-radius: 25px;
+}
+
+/* 
+La clase .border-none elimina el borde.
+*/
+.border-none {
+    border: none;
+}
+
+/* 
+La clase .border-1 establece un borde sólido negro de 1px.
+*/
+.border-1 {
+    border: 1px solid black;
+}
+
+/* 
+La clase .border-2 establece un borde sólido negro de 2px.
+*/
+.border-2 {
+    border: 2px solid black;
+}
+
+/* 
+La clase .border-3 establece un borde sólido negro de 3px.
+*/
+.border-3 {
+    border: 3px solid black;
+}
+
+/* 
+La clase .border-4 establece un borde sólido negro de 4px.
+*/
+.border-4 {
+    border: 4px solid black;
+}
+
+/* 
+La clase .border-5 establece un borde sólido negro de 5px.
+*/
+.border-5 {
+    border: 5px solid black;
+}
+
+/* 
+La clase .pad-5 establece un padding de 5px.
+*/
+.pad-5 {
+    padding: 5px;
+}
+
+/* 
+La clase .pad-10 establece un padding de 10px.
+*/
+.pad-10 {
+    padding: 10px;
+}
+
+/* 
+La clase .pad-15 establece un padding de 15px.
+*/
+.pad-15 {
+    padding: 15px;
+}
+
+/* 
+La clase .pad-20 establece un padding de 20px.
+*/
+.pad-20 {
+    padding: 20px;
+}
+
+/* 
+La clase .pad-25 establece un padding de 25px.
+*/
+.pad-25 {
+    padding: 25px;
+}
+
+/* 
+La clase .mar-5 establece un margen de 5px.
+*/
+.mar-5 {
+    margin: 5px;
+}
+
+/* 
+La clase .mar-10 establece un margen de 10px.
+*/
+.mar-10 {
+    margin: 10px;
+}
+
+/* 
+La clase .mar-15 establece un margen de 15px.
+*/
+.mar-15 {
+    margin: 15px;
+}
+
+/* 
+La clase .mar-20 establece un margen de 20px.
+*/
+.mar-20 {
+    margin: 20px;
+}
+
+/* 
+La clase .pad-side-5 establece un padding lateral de 5px.
+*/
+.pad-side-5 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* 
+La clase .pad-side-10 establece un padding lateral de 10px.
+*/
+.pad-side-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* 
+La clase .pad-side-15 establece un padding lateral de 15px.
+*/
+.pad-side-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* 
+La clase .pad-side-20 establece un padding lateral de 20px.
+*/
+.pad-side-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* 
+La clase .pad-vertical-5 establece un padding vertical de 5px.
+*/
+.pad-vertical-5 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* 
+La clase .pad-vertical-10 establece un padding vertical de 10px.
+*/
+.pad-vertical-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* 
+La clase .pad-vertical-15 establece un padding vertical de 15px.
+*/
+.pad-vertical-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* 
+La clase .pad-vertical-20 establece un padding vertical de 20px.
+*/
+.pad-vertical-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
