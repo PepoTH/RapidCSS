@@ -53,7 +53,7 @@ main {
     border-bottom: #3d3d3d 2px solid;
 }
 
-.redirect {
+.redirect , .playground {
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -61,13 +61,18 @@ main {
     transition: all 0.5s;
 }
 
-.redirect a {
+.redirect a , .playground a {
     font-size: 1rem;
     color: #3d3d3d;
     text-decoration: none;
 }
 
-.redirect:hover {
+.redirect:hover, .playground:hover {
     gap: 10px;
     text-decoration: underline;
+}
+
+.index {
+    display: flex;
+    gap: 10px;
 }
